@@ -6,7 +6,7 @@
   "dependencies": {
       "caf_core" : ">= 0.0.1",
       "imap" : "0.2.X",
-      "mailparser" : ">= 0.2.31"
+      "mailparser" : "0.2.30"
   },
   "main": "index",
     "homepage": "http://www.cafjs.com",

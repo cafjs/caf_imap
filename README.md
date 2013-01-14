@@ -14,7 +14,6 @@ It is clearly doing too much, pulling and storing in memory the contents of ever
 
 Instead, a separate service should do most of the work, and use external storage (or DB) to cache the e-mail messages. In that case the CA would be just a lightweight coordination entity, checking for new e-mail in the remote imap servers, and interacting with the back-end service and the client app.
 
-Also, we had to patch the excellent `mailparser` (by Andris Reinman) to avoid native code (in `iconv`), and we checked-in the ugly patch as dependency `mailparser-lite`. The latest version of  `mailparser` has already done that, so we will upgrade soon...
 
 
 ## API

@@ -1,10 +1,10 @@
 {
   "name": "caf_imap",
   "description": "Cloud Assistants lib for accessing an imap mail server",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Antonio Lain <antlai@cafjs.com>",
   "dependencies": {
-      "caf_core" : ">= 0.0.1",
+      "caf_core" : "^0.1",
       "imap" : "0.2.X",
       "mailparser" : "0.2.30"
   },
